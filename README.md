@@ -9,18 +9,31 @@ Unlock the potential of 3 years of bike shop sales data (2020-2022) with this co
 - **Product Insights:** Most ordered and returned products, product table with order count, revenue, and return percentage.
 - **Monthly Comparison:** KPI cards comparing last month and current month revenue, orders, and returns.
 
+![Main Dashboard](screenshots/main_dashboard.png)
+
 ## Geographic Insights
 - **Map:** Orders count based on Country and Continents.
+
+![Geographic Insights](screenshots/geographic_insights.png)
 
 ## Product Page
 - **Details:** Monthly order vs target, Monthly revenue vs target, Monthly profit vs target.
 - **Dynamic Chart:** Indicates changes in profit, revenue, orders, and return % with price adjustments.
+
+![Product Page](screenshots/product_page.png)
 
 ## Customer Info Page
 - **Metrics:** Number of Unique customers, Revenue per customer.
 - **Donut Charts:** Orders by income level, Orders by Occupation.
 - **Top Customers:** Table with top 100 customers, including name, order count, and revenue.
 - **Top Customer:** Information on the top customer based on revenue.
+
+![Customer Info Page](screenshots/customer_info_page.png)
+
+## Data Model
+- **Sales Data Table:** OrderDate, StockDate, OrderNumber, ProductKey, CustomerKey, TerritoryKey, OrderLineItem, OrderQuantity, Quantity Type.
+- **Returns Data Table:** ReturnDate, TerritoryKey, ProductKey, ReturnQuantity.
+- **Lookup Tables:** Calendar, Customer, ProductCategory, Product, ProductSubcategory, Territory.
 
 ## How to Use
 1. Clone the repository.
